@@ -1,0 +1,11 @@
+@use './base.scss';
+
+.font_red {
+  color: red;
+  .dark {
+    color: darkcyan;
+  }
+  .extendTest {
+    @extend .blue;
+  }
+}

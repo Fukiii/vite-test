@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import './test.scss'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,18 +19,18 @@ function App() {
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
-        <p>
+        <p className="font_red">
           <a
-            className="App-link"
+            className="App-link dark"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React test
           </a>
           {' | '}
           <a
-            className="App-link"
+            className="App-link extendTest"
             href="https://vitejs.dev/guide/features.html"
             target="_blank"
             rel="noopener noreferrer"

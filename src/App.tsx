@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { TestSass } from './components/test-sass';
 import logo from './logo.svg'
 import './App.css'
 import './test.scss'
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      <TestSass />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>

@@ -1,0 +1,39 @@
+$circle-color: red;
+$gray: gray;
+
+.flex-box {
+  display: flex;
+}
+.lh-center {
+  justify-content: center;
+  align-content: center;
+}
+
+.common-bg {
+  background-image: url('../../assets/images/jpg-test.jpg');
+}
+
+.h1 {
+  font-size: 30px;
+}
+.red {
+  color: red;
+}
+.gray {
+  color: gray;
+}
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+
+@mixin circle {
+  border-radius: 50%;
+  background-color: $circle-color;
+}
+@mixin rectangle {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}

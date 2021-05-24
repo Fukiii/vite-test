@@ -30,7 +30,7 @@ function App() {
           </a>
           {' | '}
           <a
-            className="App-link extendTest"
+            className="App-link extendTest bg"
             href="https://vitejs.dev/guide/features.html"
             target="_blank"
             rel="noopener noreferrer"

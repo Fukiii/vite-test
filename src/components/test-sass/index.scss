@@ -22,18 +22,21 @@
   .bg-png {
     width: 100px;
     height: 200px;
+    // 公共地址的相对路径
     background-image: url('../../assets/images/png-test.png');
     background-size: cover;
   }
   .bg-svg {
     width: 100px;
     height: 200px;
+    // 有别名的路径
     background-image: url('src/assets/images/svg-test.svg');
     background-size: cover;
   }
   .bg-c-png {
     width: 100px;
     height: 200px;
+    // 相对路径
     background-image: url('./assets/juicecube.png');
     background-size: cover;
   }
